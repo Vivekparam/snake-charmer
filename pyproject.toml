@@ -1,0 +1,12 @@
+[project]
+name = "my-game"
+version = "0.1.0"
+description = "Creating a simple game using pygame"
+authors = [{ name = "Vivek Paramasivam", email = "vivekkparam+github@gmail.com"}]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pygame==2.6.1",
+    "numpy==2.3.2",
+    "loguru==0.7.3"
+]
